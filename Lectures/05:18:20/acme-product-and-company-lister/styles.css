@@ -1,0 +1,26 @@
+html {
+    font-family: Arial;
+    margin: 0 auto;
+    max-width: 960px;
+    width: 100%;
+}
+
+h1 {
+    text-align: center;
+}
+
+nav {
+    display: flex !important;
+    justify-content: space-evenly;
+    margin-bottom: 1%;
+}
+
+ol {
+    margin-left: 18%;
+    padding-left: 1.6%;
+}
+
+.prompt {
+    margin-left: 17%;
+}
+

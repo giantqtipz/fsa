@@ -1,0 +1,19 @@
+html {
+    font-family: arial;
+    margin: 0 auto;
+    max-width: 1200px;
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+.selected {
+    text-decoration: underline;
+}
+
+table {
+    font-size: 14px;
+    text-align: left;
+}

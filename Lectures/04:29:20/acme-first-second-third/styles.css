@@ -1,0 +1,46 @@
+* {
+    font-family: Arial;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    max-width: 1400px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+#lists {
+    display: flex;
+    justify-content: space-around;
+}
+
+#lists > div {
+    border: 1px solid black;
+    padding: 1%;
+    width: 30%;
+}
+
+button {
+    width: 100%;
+    padding: 6%;
+}
+
+.user {
+    border: 1px solid black;
+    margin: 10px 0;
+    padding: 6%;
+    text-align: center;
+}
+
+.user:hover {
+    background-color: gray;
+    color: white;
+}
+
+.selected {
+    background-color: gray;
+    color: white;
+}

@@ -1,0 +1,36 @@
+html {
+    font-family: Arial;
+    margin: 0 auto;
+    max-width: 1024px;
+    width: 100%;
+}
+
+.form-container {
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+.content {
+    display: flex;
+    justify-content:space-between;
+}
+
+.error {
+    color: red;
+}
+
+input {
+    text-align: center;
+    width: 100%;
+}
+
+img {
+    border-radius: 50%;
+}
+
+.user-card {
+    display: flex;
+}

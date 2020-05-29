@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Acme User Search</title>
+        <link rel='stylesheet' href='./styles.css'>
+        <script src="./app.js" defer></script>
+        <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    </head>
+    <body id='app'>
+        <h1>Acme User Search</h1>
+        <div class='form-container'>
+            <input type='text' for='search' name='search' placeholder='Enter Name' required>
+            <p class="error"></p>
+            <button>Clear</button>
+        </div>
+        <div class="content">
+            <div class="avatar">
+                <div class="avatar-list"></div>
+            </div>
+            <div class="first">
+                <h2>First Name</h2>
+                <div class="first-list"></div>
+            </div>
+            <div class="last">
+                <h2>Last Name</h2>
+                <div class="last-list"></div>
+            </div>
+            <div class="email">
+                <h2>Email</h2>
+                <div class="email-list"></div>
+            </div>
+            <div class="title">
+                <h2>Title</h2>
+                <div class="title-list"></div>
+            </div>
+        </div>
+    </body>
+</html>

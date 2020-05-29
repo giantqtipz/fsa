@@ -1,0 +1,15 @@
+html {
+    font-family: Arial;
+    margin: 0 auto;
+    max-width: 960px;
+    width: 100%;
+}
+
+h1 {
+    text-align: center;
+}
+
+.content-container {
+    display: flex;
+    justify-content:space-around;
+}
